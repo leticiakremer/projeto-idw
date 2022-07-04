@@ -1,0 +1,67 @@
+/* Meu CSS */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#container-logo {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.botao-menu {
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 100px;
+    border-top: white;
+}
+
+.botao-menu:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.active {
+    color: white !important;
+    border-bottom: 2px solid white;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.img-sobre {
+    width: 296px;
+    border-radius: 5px;
+}
+
+#div-assunto {
+    padding-bottom: 6px;
+}
+
+.tamanho-input{
+    min-width:450px;
+    
+}
